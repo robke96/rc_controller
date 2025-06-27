@@ -4,7 +4,6 @@
 #include <Servo.h>
 
 RF24 radio(9, 10); // cns ce
-const byte address[6] = {0xA3, 0xC4, 0xD2, 0xE5, 0xF6};
 
 const int led = 5;
 const int servoPin = 2;
